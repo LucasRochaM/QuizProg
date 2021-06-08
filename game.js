@@ -69,6 +69,23 @@ let questions = [
         answer: 1,
     },
     {
+        question: "Qual das opções seguintes irão compilar sem nenhum erro em java?",
+        choice1: "float f = 1.3;",
+        choice2: "char c = 2.50;",
+        choice3: "byte b = 257;",
+        choice4: "int i = 10;",
+        answer: 4,
+    },
+    {
+        question: "Qual das opções abaixo é um jeito válido de instanciar um array em java?",
+        choice1: "int myArray [] = {1, 3, 5};",
+        choice2: "int myArray [] [] = {1,2,3,4};",
+        choice3: "int [] myArray = (5, 4, 3);",
+        choice4: "int [] myArray = {“1”, “2”, “3”};",
+        answer: 1,
+    },
+    
+    {
         question: "Onde as variáveis ficam armazenadas?",
         choice1: "No programa/software",
         choice2: "Na memória RAM",
@@ -79,7 +96,7 @@ let questions = [
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 8
+const MAX_QUESTIONS = 10
 
 startGame = () => {
     questionCounter = 0
